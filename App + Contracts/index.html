@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+  	   <!--Example Graph and Index Page Only-->
+
+  	   <!--Use Your own Contract ID to retreive data-->
+  	   <!--Use Your own Contract ID to retreive data-->
+  	   <!--Use Your own Contract ID to retreive data-->
+  	   <!--Use Your own Contract ID to retreive data-->
+  	   <!--Use Your own Contract ID to retreive data-->
+  	   <!--Use Your own Contract ID to retreive data-->
+  	   <!--Use Your own Contract ID to retreive data-->
+
+
+    <script type="text/javascript">
+
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+
+      title:{
+      text: "Electricity / Bi - Monthly"
+      },
+      axisY:{
+        title: "Units in kWh"
+      },
+       data: [
+      {
+        type: "line",
+
+        dataPoints: [
+          
+
+{ x: new Date(2020, 00,1), y:14},
+{ x: new Date(2020, 00,2), y:0},
+{ x: new Date(2020, 00,3), y:6},
+{ x: new Date(2020, 00,4), y:11},
+{ x: new Date(2020, 00,5), y:14},
+{ x: new Date(2020, 00,6), y:14},
+{ x: new Date(2020, 00,7), y:14},
+{ x: new Date(2020, 00,8), y:9},
+{ x: new Date(2020, 00,9), y:12},
+{ x: new Date(2020, 00,10), y:2},
+{ x: new Date(2020, 00,11), y:11},
+{ x: new Date(2020, 00,12), y:5},
+{ x: new Date(2020, 00,13), y:14},
+{ x: new Date(2020, 00,14), y:2},
+{ x: new Date(2020, 00,15), y:11},
+{ x: new Date(2020, 00,16), y:8},
+{ x: new Date(2020, 00,17), y:12},
+{ x: new Date(2020, 00,18), y:11},
+{ x: new Date(2020, 00,19), y:9},
+{ x: new Date(2020, 00,20), y:9},
+{ x: new Date(2020, 00,21), y:0},
+{ x: new Date(2020, 00,22), y:5},
+{ x: new Date(2020, 00,23), y:9},
+{ x: new Date(2020, 00,24), y:5},
+{ x: new Date(2020, 00,25), y:12},
+{ x: new Date(2020, 00,26), y:6},
+{ x: new Date(2020, 00,27), y:0},
+{ x: new Date(2020, 00,28), y:6},
+{ x: new Date(2020, 00,29), y:3},
+{ x: new Date(2020, 00,30), y:8},
+{ x: new Date(2020, 00,31), y:3}
+
+
+        ]
+      }
+      ]
+
+    });
+
+    chart.render();
+  }
+  </script>
+ <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>El DApp</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <center>TOTAL POWER CONSUMPTION (from 1/Jan/2020 to 31/Jan/2020) <span style="margin-left:2em"><strong>245</strong> UNITS</center>
+    <center><p>BILL AMOUNT (from 1/Jan/2020 to 31/Jan/2020)<span style="margin-left:2em">₹ <b>565.00</b></center></span>
+    <center><div id="chartContainer" style="height: 500px; width: 500px;"></div></center>
+  </body>
+</html>
