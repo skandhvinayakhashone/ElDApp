@@ -16,3 +16,23 @@
 Published paper DOI : 10.36548/jei.2020.1.006
 
 Link : https://dx.doi.org/10.36548/jei.2020.1.006
+
+Dependencies
+
+Geth v1.8.14-stable
+
+Go vgo1.11
+
+ipfs v0.4.18
+
+Metamask v7.2.0
+
+Node v10.12.0
+
+Python >= 3.5.1
+
+Solidity v0.5.12 (solc-js)
+
+Truffle v5.1.5 (core: 5.1.5)
+
+Web3.js v1.2.1
