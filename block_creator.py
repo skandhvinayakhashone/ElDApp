@@ -4,7 +4,7 @@ import json
 from web3 import Web3
 
 # Set up web3 connection with Geth instance
-geth_url = "http://127.0.0.1:8545"
+geth_url = "http://127.0.0.1:30303"
 web3 = Web3(Web3.HTTPProvider(geth_url))
 
 # Set a default account to sign transactions
